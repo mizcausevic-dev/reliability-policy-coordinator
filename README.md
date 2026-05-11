@@ -114,8 +114,15 @@ $env:Path = "$env:JAVA_HOME\bin;$env:Path"
 
 Then open:
 
-- `http://127.0.0.1:4068/`
-- `http://127.0.0.1:4068/docs`
+- `http://127.0.0.1:4286/`
+- `http://127.0.0.1:4286/docs`
+
+If that port is already occupied, choose another one before running:
+
+```powershell
+$env:PORT = "4290"
+.\gradlew.bat run
+```
 
 ## Validation
 
