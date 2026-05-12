@@ -4,10 +4,10 @@ All notable changes to this project are documented here.
 
 This log is intentionally written as an engineering record rather than a launch theater timeline. Dates reflect when the concept, design, prototype, and public packaging phases were mature enough to document.
 
-## [1.0.0] - 2026-05-11
+## [1.0.0] - 2026-05-12
 
 ### Released
-- Published \$name\ as a public, portfolio-grade RAG reliability system.
+- Published **reliability-policy-coordinator** as a public, portfolio-grade RAG reliability system.
 - Packaged the current implementation, documentation, validation workflow, and proof surfaces into a repo that could be reviewed by engineering, product, and operating stakeholders.
 - Tightened the repo story around the real-world operating problem: rising RAG hallucination rates, weak citation quality, and silent retrieval drift.
 
@@ -18,7 +18,7 @@ This log is intentionally written as an engineering record rather than a launch 
 ## [0.1.0] - 2026-02-21
 
 ### Shipped
-- Cut the first coherent internal version of the product shape behind \$name\.
+- Cut the first coherent internal version of the product shape behind **reliability-policy-coordinator**.
 - Standardized the core objects, decision surfaces, and operator outputs around the repo's main working problem.
 - Established the first reviewable version of the architecture described as: Kotlin JVM backend for dependency drag review, error-budget policy, freeze-window decisions, and rollback-aware reliability coordination.
 
@@ -60,7 +60,7 @@ This log is intentionally written as an engineering record rather than a launch 
 
 ### Insight
 - The missing product was not another point solution. It was a clearer operating layer that made the work legible to AI platform and knowledge-system teams.
-- That insight became the basis for \$name\.
+- That insight became the basis for **reliability-policy-coordinator**.
 
 ## [Background Signals] - 2022-08-09
 
