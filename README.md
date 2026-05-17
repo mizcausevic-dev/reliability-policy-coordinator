@@ -38,7 +38,7 @@ flowchart LR
   F --> G
 ```
 
-Additional detail lives in [C:\Users\chaus\dev\repos\reliability-policy-coordinator\docs\architecture.md](/C:/Users/chaus/dev/repos/reliability-policy-coordinator/docs/architecture.md).
+Additional detail lives in [docs/architecture.md](./docs/architecture.md).
 
 ## API
 
@@ -106,7 +106,7 @@ Example payload:
 ## Local Run
 
 ```powershell
-Set-Location "C:\Users\chaus\dev\repos\reliability-policy-coordinator"
+cd reliability-policy-coordinator
 $env:JAVA_HOME = "C:\Program Files\Microsoft\jdk-21.0.11.10-hotspot"
 $env:Path = "$env:JAVA_HOME\bin;$env:Path"
 .\gradlew.bat run
@@ -127,7 +127,7 @@ $env:PORT = "4290"
 ## Validation
 
 ```powershell
-Set-Location "C:\Users\chaus\dev\repos\reliability-policy-coordinator"
+cd reliability-policy-coordinator
 $env:JAVA_HOME = "C:\Program Files\Microsoft\jdk-21.0.11.10-hotspot"
 $env:Path = "$env:JAVA_HOME\bin;$env:Path"
 .\gradlew.bat test
